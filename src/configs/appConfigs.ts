@@ -35,6 +35,13 @@ export const expiresAccessTokenSrt = msecToSecondStr(expiresAccessToken);
 export const expiresRefreshToken = minuteToMsec(24 * 60);
 export const expiresRefreshTokenStr = msecToSecondStr(expiresRefreshToken);
 
-// CORS
+// Start server display
+export const startDisplay = {
+  setTitle: 'Demo-Code NestJS + GraphQL + MongoDB',
+  setDescription: 'The Demo-Code API of NestJS + GraphQL + MongoDB',
+  setVersion: '1.0',
+  addTag: 'demo-code-graph',
+};
 
+// CORS
 export const corsList = ['http://localhost:3007', 'http://localhost:3000'];
